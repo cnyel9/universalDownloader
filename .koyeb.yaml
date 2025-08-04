@@ -1,0 +1,10 @@
+# .koyeb.yaml
+app:
+  name: universaldownloader
+services:
+  - type: "web"
+    ports:
+      - port: 8000
+        protocol: "http"
+    routes:
+      - path: "/"
